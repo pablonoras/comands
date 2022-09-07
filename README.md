@@ -18,7 +18,9 @@
     $ eb local run --port 8080
     $ eb create house-prices-env   
 
-## Ubuntu Cambio de versión de python
+## Ubuntu
+    ### Cambio de versión de python
+    
     $ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
     $ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 2
     
