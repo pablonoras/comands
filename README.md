@@ -25,3 +25,8 @@
     $ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 2
     
     $ sudo update-alternatives --config python3
+    
+## Poetry
+### Poetry comand no encontrado
+
+    $ export PATH="$HOME/.local/bin:$PATH"
