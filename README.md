@@ -44,6 +44,12 @@
 
     $ Alt Shift A (comentar las lineas seleccionadas)
     $ Alt Shift flecha izq (seleccionar toda la linea)
-    $ Ctrl Alt flecha down (multiplicar cursor)
+    $ Ctrl Alt flecha abajo (multiplicar cursor)
     $ Alt flecha izq (ir al paso anterior)
     $ Alt Shift flecha arriba (duplicar celda jupyter)
+
+### Python - IOS
+
+    $ Cmd Shift L (seleccionar todas las ocurrencias)
+    $ Cmd Option flecha abajo (seleccionar todas las ocurrencias)
+    
