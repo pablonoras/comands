@@ -38,3 +38,12 @@
 ### Poetry comand no encontrado
 
     $ export PATH="$HOME/.local/bin:$PATH"
+    
+## VSCode
+### Python - Linux
+
+    $ Alt Shift A (comentar las lineas seleccionadas)
+    $ Alt Shift flecha izq (seleccionar toda la linea)
+    $ Ctrl Alt flecha down (multiplicar cursor)
+    $ Alt flecha izq (ir al paso anterior)
+    $ Alt Shift flecha arriba (duplicar celda jupyter)
