@@ -47,9 +47,10 @@
     $ Ctrl Alt flecha abajo (multiplicar cursor)
     $ Alt flecha izq (ir al paso anterior)
     $ Alt Shift flecha arriba (duplicar celda jupyter)
+    $ Crt Shift L (seleccionar todas las ocurrencias)
 
 ### Python - IOS
 
     $ Cmd Shift L (seleccionar todas las ocurrencias)
-    $ Cmd Option flecha abajo (seleccionar todas las ocurrencias)
+    $ Cmd Option flecha abajo (multiplicar cursor)
     
