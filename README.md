@@ -49,6 +49,7 @@
     $ Alt Shift flecha arriba (duplicar celda jupyter)
     $ Crt Shift L (seleccionar todas las ocurrencias)
     $ Crt K Crt C (comentar lineas seleccionadas)
+    $ Crt K Crt U (descomentar lineas seleccionadas)
 
 ### Python - IOS
 
