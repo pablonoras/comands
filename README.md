@@ -42,12 +42,13 @@
 ## VSCode
 ### Python - Linux
 
-    $ Alt Shift A (comentar las lineas seleccionadas)
+    $ Alt Shift A (string a las lineas seleccionadas)
     $ Alt Shift flecha izq (seleccionar toda la linea)
     $ Ctrl Alt flecha abajo (multiplicar cursor)
     $ Alt flecha izq (ir al paso anterior)
     $ Alt Shift flecha arriba (duplicar celda jupyter)
     $ Crt Shift L (seleccionar todas las ocurrencias)
+    $ Crt K Crt C (comentar lineas seleccionadas)
 
 ### Python - IOS
 
