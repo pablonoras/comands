@@ -55,4 +55,6 @@
 
     $ Cmd Shift L (seleccionar todas las ocurrencias)
     $ Cmd Option flecha abajo (multiplicar cursor)
+    $ Cmd / (comentar todas las lineas seleccionadas)
+   
     
