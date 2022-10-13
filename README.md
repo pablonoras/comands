@@ -50,11 +50,16 @@
     $ Crt Shift L (seleccionar todas las ocurrencias)
     $ Crt K Crt C (comentar lineas seleccionadas)
     $ Crt K Crt U (descomentar lineas seleccionadas)
+    $ Shift Tab (mover a la izq el bloque seleccionado un tab)
 
 ### Python - IOS
 
     $ Cmd Shift L (seleccionar todas las ocurrencias)
     $ Cmd Option flecha abajo (multiplicar cursor)
     $ Cmd / (comentar todas las lineas seleccionadas)
+    
+## Python 
+
+    $ find . | grep -E "(/__pycache__$|\.pyc$|\.pyo$)" | xargs rm -rf (borrar cache)
    
     
