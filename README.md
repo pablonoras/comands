@@ -51,12 +51,14 @@
     $ Crt K Crt C (comentar lineas seleccionadas)
     $ Crt K Crt U (descomentar lineas seleccionadas)
     $ Shift Tab (mover a la izq el bloque seleccionado un tab)
+    $ Crtl Shift k (eliminar linea de donde sea)
 
 ### Python - IOS
 
     $ Cmd Shift L (seleccionar todas las ocurrencias)
     $ Cmd Option flecha abajo (multiplicar cursor)
     $ Cmd / (comentar todas las lineas seleccionadas)
+    $ Cmd Shift k (eliminar linea de donde sea)
     
 ## Python 
 
