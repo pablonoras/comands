@@ -24,7 +24,8 @@
     $ eb --version
     $ eb init -p docker house-price-env --region:sa-east-1
     $ eb local run --port 8080
-    $ eb create house-prices-env   
+    $ eb create house-prices-env
+    $ aws s3 sync s3://aws-mediktor-datascience/nextsymptom/17-18/raw/config/ ./data/17-18/raw/config/
 
 ## Ubuntu
 ### Cambio de versión de python
