@@ -1,12 +1,16 @@
 # Comandos
 
 ## Git
-## Push a new project
+### Push a new project
     $ git init
     $ git add .
     $ git commit -m "Add existing project files to Git"
     $ git remote add origin https://github.com/cameronmcnz/example-website.git
     $ git push -u -f origin develop
+
+## Linux
+    $ mv Old_folder New_folder (renombrar carpeta)
+    $ rm -r (eliminar carpeta llena de archivos)
 
 ## Docker
 
