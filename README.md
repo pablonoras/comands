@@ -24,9 +24,8 @@
     $ gunicorn --bind 0.0.0.0:8080 predict:app
     
 ## AWS 
-    $ pip install awsebcli
-    
 ### Elastic Beanstalk
+    $ pip install awsebcli
     $ eb --version
     $ eb init -p docker house-price-env --region:sa-east-1
     $ eb local run --port 8080
