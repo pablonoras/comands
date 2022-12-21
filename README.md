@@ -23,13 +23,18 @@
 
     $ gunicorn --bind 0.0.0.0:8080 predict:app
     
-## AWS - Elastic Beanstalk
+## AWS 
     $ pip install awsebcli
+    
+### Elastic Beanstalk
     $ eb --version
     $ eb init -p docker house-price-env --region:sa-east-1
     $ eb local run --port 8080
     $ eb create house-prices-env
+    
+### S3
     $ aws s3 sync s3://aws-mediktor-datascience/nextsymptom/17-18/raw/config/ ./data/17-18/raw/config/
+    $ aws s3 sync ./models/ensemble/pecos/2 s3://aws-mediktor-datascience/nextsymptom/models/ensemble/pecos/2
 
 ## Ubuntu
 ### Cambio de versión de python
