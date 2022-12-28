@@ -33,7 +33,7 @@
     
 ### S3
     $ aws s3 sync s3://aws-mediktor-datascience/nextsymptom/17-18/raw/config/ ./data/17-18/raw/config/
-    $ aws s3 sync ./data/pre_processed/test s3://aws-mediktor-datascience/nextsymptom/data/pre_processed/test
+    $ aws s3 sync ./data/17-18/pre_processed/1_optionals/1 s3://aws-mediktor-datascience/nextsymptom/data/17-18/pre_processed/1_optionals/1
 
 ## Ubuntu
 ### Cambio de versión de python
