@@ -11,6 +11,8 @@
 ## Linux
     $ mv Old_folder New_folder (renombrar carpeta)
     $ rm -r (eliminar carpeta llena de archivos)
+    $ nproc (número de nucleos)
+    $ htop (monitor de actividad)
 
 ## Docker
 
