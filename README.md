@@ -75,5 +75,6 @@
 ## Python 
 
     $ find . | grep -E "(/__pycache__$|\.pyc$|\.pyo$)" | xargs rm -rf (borrar cache)
+    $ sys.path.append("module_path") (add a path to PYTHONPATH)
    
     
