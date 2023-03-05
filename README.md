@@ -70,6 +70,7 @@
     $ Cmd Option flecha abajo (multiplicar cursor)
     $ Cmd / (comentar todas las lineas seleccionadas)
     $ Cmd Shift k (eliminar linea de donde sea)
+    $ Cmd W (cerrar pestaña)
     
 ## Python 
 
