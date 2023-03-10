@@ -50,6 +50,11 @@
     $ poetry new proyect-name (iniciar un proyecto)
     $ export PATH="$HOME/.local/bin:$PATH" (poetry comand no encontrado)
     
+### Add tensorflow to Mac M1
+    $ poetry add tensorflow-macos@2.9 --platform darwin
+    $ poetry add tensorflow-metal@0.5 --platform darwin
+    $ poetry add tensorflow@2.9 --platform linux
+    
 ## VSCode
 ### Python - Linux
 
