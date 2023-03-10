@@ -46,9 +46,9 @@
     $ sudo update-alternatives --config python3
     
 ## Poetry
-### Poetry comand no encontrado
 
-    $ export PATH="$HOME/.local/bin:$PATH"
+    $ poetry new proyect-name (iniciar un proyecto)
+    $ export PATH="$HOME/.local/bin:$PATH" (poetry comand no encontrado)
     
 ## VSCode
 ### Python - Linux
