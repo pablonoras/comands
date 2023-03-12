@@ -82,4 +82,7 @@
     $ find . | grep -E "(/__pycache__$|\.pyc$|\.pyo$)" | xargs rm -rf (borrar cache)
     $ sys.path.append("module_path") (add a path to PYTHONPATH)
    
+## Pythorch 
+
+[install_pythorch_mac_m1](https://github.com/jeffheaton/t81_558_deep_learning/blob/pytorch/install/pytorch-install-aug-2022.ipynb)
     
