@@ -49,6 +49,7 @@
 
     $ poetry new proyect-name (iniciar un proyecto)
     $ export PATH="$HOME/.local/bin:$PATH" (poetry comand no encontrado)
+    $ curl -sSL https://install.python-poetry.org | python3 - (install poetry)
     
 ### Add tensorflow to Mac M1
     $ poetry add tensorflow-macos@2.9 --platform darwin
