@@ -83,6 +83,11 @@
     $ find . | grep -E "(/__pycache__$|\.pyc$|\.pyo$)" | xargs rm -rf (borrar cache)
     $ sys.path.append("module_path") (add a path to PYTHONPATH)
 
+## Sublime4 
+    ### Ubuntu
+    $ Alt F3 (seleccionar todas las ocurrencias)
+    $ Crtl Shift Abajo/arriba (multiplicar cursor)
+
 ## Pyenv
 
     $ pyenv shell --unset (unset the shell python version)
