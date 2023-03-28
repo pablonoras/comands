@@ -84,9 +84,9 @@
     $ sys.path.append("module_path") (add a path to PYTHONPATH)
 
 ## Sublime4 
-    ### Ubuntu
+   ### Ubuntu
     $ Alt F3 (seleccionar todas las ocurrencias)
-    $ Crtl Shift Abajo/arriba (multiplicar cursor)
+    $ Alt Shift Abajo/arriba (multiplicar cursor)
 
 ## Pyenv
 
