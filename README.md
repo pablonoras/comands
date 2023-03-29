@@ -87,6 +87,7 @@
    ### Ubuntu
     $ Alt F3 (seleccionar todas las ocurrencias)
     $ Alt Shift Abajo/arriba (multiplicar cursor)
+    $ Ctrl Shift L (multiplicar cursor en las lineas seleccionadas)
 
 ## Pyenv
 
