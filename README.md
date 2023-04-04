@@ -92,6 +92,10 @@
 ## Pyenv
 
     $ pyenv shell --unset (unset the shell python version)
+
+## GPU
+
+    $ watch -n 2 nvidia-smi (check gpu usage and update every 2 seconds)
    
 ## Pythorch 
 
