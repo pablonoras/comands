@@ -96,6 +96,9 @@
 ## GPU
 
     $ watch -n 2 nvidia-smi (check gpu usage and update every 2 seconds)
+    $ nvidia-smi --list-gpus (check how many gpus and which ones you have)
+    $ nvidia-smi -L (check how many gpus and which ones you have)
+    $ nvidia-smi -q (more info about your gpu)
    
 ## Pythorch 
 
