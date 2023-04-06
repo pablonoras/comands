@@ -99,7 +99,13 @@
     $ nvidia-smi --list-gpus (check how many gpus and which ones you have)
     $ nvidia-smi -L (check how many gpus and which ones you have)
     $ nvidia-smi -q (more info about your gpu)
+    $ ls /proc/driver/nvidia/gpus (if 1 folder, so 1 gpu)
+    $ cat /proc/driver/nvidia/gpus({gpu_folder}/information (if 1 folder, so 1 gpu)
    
+## CPU 
+    $ htop
+    $ free -m
+
 ## Pythorch 
 
 [install_pythorch_mac_m1](https://github.com/jeffheaton/t81_558_deep_learning/blob/pytorch/install/pytorch-install-aug-2022.ipynb)
