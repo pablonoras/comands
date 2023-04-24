@@ -14,12 +14,31 @@
     $ nproc (número de nucleos)
     $ htop (monitor de actividad)
 
-## Docker
-
+## Docker (https://github.com/nschurmann/mongoapp-curso-docker)
+    $ docker pull --platform {platform_name}
+    $ docker pull python:3.9 (descargar una versión particular)
+    $ docker image rm python:3.9 (eliminar una imagen)
+    $ docker create --name {container_name que quieras} {image_name}  (crear un contenedor)
+    $ docker create -p27017:27017 --name monguito --network {nombre_de_la_red} -e MONGO_INIT_ROOT = pablo mongo (crear un contenedor especificando el puerto_maquina:puerto_docker, acordarse de especificar las variables de entorno) 
+    $ docker start {container_name} (arrancar un contenedor)
+    $ docker ps (ver contenedores corriendo)
+    $ docker ps -a (ver todos los contenedores del sistema) 
+    $ docker rm {container_name} (remover los contenedores)
+    $ docker images (muestra las imagenes descargadas)
+    $ docker logs {container_name} (see the container logs) 
+    $ docker logs --follow {container_name} (ver logs mientras aparecen)
+    $ docker run -d {image_name} (busca la imagen si no la encuentra la descarga y corre un contenedor, el -d es para no ver los logs) 
+    $ docker run --name monguito -p27017:27017 -d mongo (all-in one)
+    $ docker network ls (ver redes disponibles)
+    $ docker network create mired (crear "mired")
+    $ docker build -t {name_app:version} {path, solo un . si te encuentra en el mismo path donde est el Dockerfile} (crear imagenes a partir de un archivo Dockerfile) 
+    $ docker compose up (run the docker-compose.yml file)
+    $ docker compose down (eliminar todo)
     $ docker build -t house-price-reg-model .
     $ docker create -p8080:8080 --name regressor house-price-reg-model
     $ docker start regressor
     $ docker ps
+    $ docker compose -f docker-compose-dev.yml up (el -f es para ejecutar un archivo distinto a docker-compose.yml)
 
 ## Gunicorn
 
