@@ -13,6 +13,7 @@
     $ rm -r (eliminar carpeta llena de archivos)
     $ nproc (número de nucleos)
     $ htop (monitor de actividad)
+    $ ls -l (show file permissions)
 
 ## Docker (https://github.com/nschurmann/mongoapp-curso-docker)
     $ docker pull --platform {platform_name}
