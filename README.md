@@ -30,6 +30,7 @@
     $ docker logs --follow {container_name} (ver logs mientras aparecen)
     $ docker run -d {image_name} (busca la imagen si no la encuentra la descarga y corre un contenedor, el -d es para no ver los logs) 
     $ docker run --name monguito -p27017:27017 -d mongo (all-in one)
+    $ docker run -it --rm -p 9696:9696 your_image_name bash (run in an interactive mode and then delete the container)
     $ docker network ls (ver redes disponibles)
     $ docker network create mired (crear "mired")
     $ docker build -t {name_app:version} {path, solo un . si te encuentra en el mismo path donde est el Dockerfile} (crear imagenes a partir de un archivo Dockerfile) 
