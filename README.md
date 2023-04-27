@@ -94,6 +94,7 @@
     $ Cmd / (comentar todas las lineas seleccionadas)
     $ Cmd Shift k (eliminar linea de donde sea)
     $ Cmd W (cerrar pestaña)
+    $ source .venv/bin/activate (activate the .venv in terminal)
     
 ## Python 
 
