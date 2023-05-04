@@ -120,7 +120,8 @@
     $ ls /proc/driver/nvidia/gpus (if 1 folder, so 1 gpu)
     $ cat /proc/driver/nvidia/gpus({gpu_folder}/information (if 1 folder, so 1 gpu)
     $ sudo rmmod nvidia_uvm and sudo modprobe nvidia_uvm (solve cuda initialization error)
-    $ kill -9 <PID> (kill a process) 
+    $ kill -9 <PID> (kill a process)
+    $ nvtop (ver gráficos de uso de gpu, instalar con sudo apt install nvtop) 
    
 ## CPU 
     $ htop
