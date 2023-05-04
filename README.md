@@ -110,6 +110,7 @@
 ## Pyenv
 
     $ pyenv shell --unset (unset the shell python version)
+    $ unset PYENV_VERSION (unset the env variable PYENV_VERSION)
 
 ## GPU
 
