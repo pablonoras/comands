@@ -1,0 +1,16 @@
+FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
+
+RUN apt-get update -y && \
+    apt-get upgrade -y && \
+    apt-get install -y build-essential make nano && \
+    python -m pip install --upgrade pip && \
+    python -m pip install poetry
+
+ENV PYTHONPATH "${PYTHONPATH}:$(pwd)"
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+COPY Makefile pyproject.toml ./
+
+RUN poetry export --with torch-geometric --without-hashes -f requirements.txt -o requirements.txt && \
+    pip install -r requirements.txt
