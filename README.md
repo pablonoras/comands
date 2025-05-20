@@ -131,4 +131,8 @@
 ## Pythorch 
 
 [install_pythorch_mac_m1](https://github.com/jeffheaton/t81_558_deep_learning/blob/pytorch/install/pytorch-install-aug-2022.ipynb)
+
+## Supabase 
+
+npx supabase@2.23.0-beta db reset --linked
     
