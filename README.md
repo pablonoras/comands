@@ -5,6 +5,7 @@
 ### Init a new project
     Create a folder
     $ poetry new .
+    $ poetry init . (if existing project)
     $ poetry config virtualenvs.in-project true
     $ poetry env use 3.10.1 (this will create the venv)
     $ source /Users/pnoras/Repositories/python/your-repo/.venv/bin/activate (you can check the path with poetry env info)
